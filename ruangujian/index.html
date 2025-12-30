@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ruang Ujian PKBM HALIFA</title>
+
+    <link rel="icon" type="image/webp" href="/assets/images/favicon.webp" />
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <meta property="og:title" content="Ruang Ujian PKBM HALIFA">
+    <meta property="og:description"
+        content="Portal ujian resmi PKBM HALIFA. Kerjakan dengan jujur dan penuh tanggung jawab.">
+    <meta property="og:image" content="https://ciwai.dev/assets/images/og-preview.jpg">
+    <meta property="og:url" content="https://ciwai.dev/ruangujian/">
+</head>
+
+<body class="home-page">
+
+    <main class="container" style="
+  max-width:520px;
+  min-height:calc(100vh - 120px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+">
+
+        <div style="
+      background:#ffffff;
+      border:1px solid #e5e7eb;
+      border-radius:18px;
+      padding:32px 24px;
+      box-shadow:0 10px 25px rgba(0,0,0,.04);
+    ">
+
+            <h1 style="color:#4f46e5;margin-bottom:8px;">
+                Ruang Ujian PKBM HALIFA
+            </h1>
+
+            <p style="font-size:14px;color:#64748b;margin-bottom:28px;">
+                Portal resmi pelaksanaan dan hasil evaluasi ujian
+            </p>
+
+            <!-- ACTION BUTTON -->
+            <div class="card-grid">
+
+                <div class="action-card" onclick="masukUjian()">
+                    <div class="card-icon">📝</div>
+                    <h3>Ruang Ujian</h3>
+                    <p>Mulai dan lanjutkan ujian</p>
+                </div>
+
+                <div class="action-card secondary" onclick="lihatHasil()">
+                    <div class="card-icon">📊</div>
+                    <h3>Hasil Ujian</h3>
+                    <p>Lihat nilai dan evaluasi</p>
+                </div>
+
+            </div>
+
+
+            <!-- INFO -->
+            <div style="
+        margin-top:24px;
+        background:#f8fafc;
+        border:1px dashed #cbd5e1;
+        padding:14px;
+        border-radius:12px;
+      ">
+                <p style="font-size:13px;margin:0;color:#475569;">
+                    ℹ️ Fitur login akun akan diaktifkan setelah proses sinkronisasi data selesai.
+                </p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer
+        style="margin-top:60px;padding:30px 15px 20px;text-align:center;border-top:1px solid #e2e8f0;background:#ffffff;">
+        <p style="color:#94a3b8;font-size:12px;margin-bottom:12px;">
+            © 2025 Ciwai™ Smart Digital. All rights reserved.
+        </p>
+
+        <div style="display:flex;justify-content:center;gap:20px;flex-wrap:wrap;">
+            <a href="/ruangujian/" style="font-size:13px;color:#64748b;text-decoration:none;">Home</a>
+            <a href="/article/" style="font-size:13px;color:#64748b;text-decoration:none;">Article</a>
+            <a href="/privacy.html" style="font-size:13px;color:#64748b;text-decoration:none;">Privacy</a>
+            <a href="/support/" style="font-size:13px;color:#64748b;text-decoration:none;">Support</a>
+        </div>
+    </footer>
+
+    <script>
+        function masukUjian() {
+            localStorage.setItem("login", "guest");
+            location.href = "pilih.html";
+        }
+
+        function lihatHasil() {
+            location.href = "hasilujian/";
+        }
+    </script>
+
+</body>
+
+</html>

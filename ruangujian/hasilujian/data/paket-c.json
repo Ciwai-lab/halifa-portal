@@ -1,0 +1,865 @@
+[
+  {
+    "email": "I can’t come to your party.”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is the announcement about?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is Rani applying for?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How was Cinderella’s stepmother?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How long should we boil the noodles?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The text tells us about …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What does the Komodo dragon eat?",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "I can’t come to your party.”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is the announcement about?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is Rani applying for?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How was Cinderella’s stepmother?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How long should we boil the noodles?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The text tells us about …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What does the Komodo dragon eat?",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "I can’t come to your party.”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is the announcement about?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is Rani applying for?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How was Cinderella’s stepmother?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How long should we boil the noodles?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The text tells us about …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What does the Komodo dragon eat?",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "learning English is fun.”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is the announcement about?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is Rani applying for?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How was Cinderella’s stepmother?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How long should we boil the noodles?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The text tells us about …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What does the Komodo dragon eat?",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "learning English is fun.”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is the announcement about?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is Rani applying for?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How was Cinderella’s stepmother?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How long should we boil the noodles?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The text tells us about …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What does the Komodo dragon eat?",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "learning English is fun.”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is the announcement about?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What is Rani applying for?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How was Cinderella’s stepmother?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "How long should we boil the noodles?",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The text tells us about …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "What does the Komodo dragon eat?",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "She ___ in Jakarta since 2018.",
+    "nama": "She ___ in Jakarta since 2018. [Feedback]",
+    "paket": "If it rains, we ___ stay at home. [Feedback]",
+    "total": 50,
+    "benar": null,
+    "salah": null,
+    "nilai": null,
+    "nilai_text": "NaN/100",
+    "detail": []
+  },
+  {
+    "email": "shazfaanw@gmail.com",
+    "nama": "Nafisa Shazfa Widiya",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 46,
+    "salah": 4,
+    "nilai": 92,
+    "nilai_text": "92/100",
+    "detail": []
+  },
+  {
+    "email": "intannintann27@gmail.com",
+    "nama": "Intan sukesa",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 28,
+    "salah": 22,
+    "nilai": 56,
+    "nilai_text": "56/100",
+    "detail": []
+  },
+  {
+    "email": "risasyahara811@gmail.com",
+    "nama": "Marisa",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 42,
+    "salah": 8,
+    "nilai": 84,
+    "nilai_text": "84/100",
+    "detail": [
+      {
+        "soal": "What is the announcement about?",
+        "jawaban_peserta": "A. A class party",
+        "benar": false
+      },
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "A. Thursday at 10 a.m.",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "sitirobiah1315@gmail.com",
+    "nama": "VIDIA MAYRAMINA (BIA)",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 46,
+    "salah": 4,
+    "nilai": 92,
+    "nilai_text": "92/100",
+    "detail": []
+  },
+  {
+    "email": "septimutia33@gmail.com",
+    "nama": "Septi mutia",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 43,
+    "salah": 7,
+    "nilai": 86,
+    "nilai_text": "86/100",
+    "detail": [
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "C. Descriptive",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "destiaja510@gmail.com",
+    "nama": "Destia Nurul Adha",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 40,
+    "salah": 10,
+    "nilai": 80,
+    "nilai_text": "80/100",
+    "detail": []
+  },
+  {
+    "email": "yulidarus39@gmail.com",
+    "nama": "Yulianingsih",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 44,
+    "salah": 6,
+    "nilai": 88,
+    "nilai_text": "88/100",
+    "detail": []
+  },
+  {
+    "email": "tazkiahkiki17@gmail.com",
+    "nama": "KIKI TAZQIYAH",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 44,
+    "salah": 6,
+    "nilai": 88,
+    "nilai_text": "88/100",
+    "detail": [
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "A. Thursday at 10 a.m.",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "C. Descriptive",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "azharaja543@gmail.com",
+    "nama": "Muhammad Azhar dawami",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 38,
+    "salah": 12,
+    "nilai": 76,
+    "nilai_text": "76/100",
+    "detail": [
+      {
+        "soal": "What is the announcement about?",
+        "jawaban_peserta": "A. A class party",
+        "benar": false
+      },
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "A. Thursday at 10 a.m.",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "A. Narrative",
+        "benar": false
+      },
+      {
+        "soal": "What is Rani applying for?",
+        "jawaban_peserta": "A. Teacher",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "D. Announcement",
+        "benar": false
+      },
+      {
+        "soal": "The text tells us about …",
+        "jawaban_peserta": "C. a zoo",
+        "benar": false
+      },
+      {
+        "soal": "What does the Komodo dragon eat?",
+        "jawaban_peserta": "D. Grass",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "sitinurulfadilah41@gmail.com",
+    "nama": "Siti Nurul Fadhilah",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 45,
+    "salah": 5,
+    "nilai": 90,
+    "nilai_text": "90/100",
+    "detail": []
+  },
+  {
+    "email": "istiajaa082@gmail.com",
+    "nama": "Istikomah sunjanis",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 36,
+    "salah": 14,
+    "nilai": 72,
+    "nilai_text": "72/100",
+    "detail": []
+  },
+  {
+    "email": "dvina1876@gmail.com",
+    "nama": "vina damayanti",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 47,
+    "salah": 3,
+    "nilai": 94,
+    "nilai_text": "94/100",
+    "detail": []
+  },
+  {
+    "email": "ainulmuzayyan@gmail.com",
+    "nama": "Nurhalimah",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 24,
+    "salah": 26,
+    "nilai": 48,
+    "nilai_text": "48/100",
+    "detail": [
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "C. Descriptive",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "B. Procedure text",
+        "benar": false
+      },
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "C. vegetables and seasoning",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "verendelyanti@gmail.com",
+    "nama": "veren delyanti",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 36,
+    "salah": 14,
+    "nilai": 72,
+    "nilai_text": "72/100",
+    "detail": []
+  },
+  {
+    "email": "mrezapermana82@gmail.com",
+    "nama": "Muhammad Reza permana",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 45,
+    "salah": 5,
+    "nilai": 90,
+    "nilai_text": "90/100",
+    "detail": [
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "D. Report",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "ulumpauul@gmail.com",
+    "nama": "M Miftahul ulum",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 7,
+    "salah": 43,
+    "nilai": 14,
+    "nilai_text": "14/100",
+    "detail": [
+      {
+        "soal": "What is the announcement about?",
+        "jawaban_peserta": "A. A class party",
+        "benar": false
+      },
+      {
+        "soal": "When will the meeting be held?",
+        "jawaban_peserta": "A. Thursday at 10 a.m.",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "D. Report",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "B. Procedure text",
+        "benar": false
+      },
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "D. 3 minutes",
+        "benar": false
+      },
+      {
+        "soal": "How long should we boil the noodles?",
+        "jawaban_peserta": "A. 1 minutes",
+        "benar": false
+      },
+      {
+        "soal": "What does the Komodo dragon eat?",
+        "jawaban_peserta": "D. Grass",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "ardynsyhh20@gmail.com",
+    "nama": "denny ardiansyah",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 33,
+    "salah": 17,
+    "nilai": 66,
+    "nilai_text": "66/100",
+    "detail": []
+  },
+  {
+    "email": "mustakmilah111@gmail.com",
+    "nama": "Mustakmilah",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 33,
+    "salah": 17,
+    "nilai": 66,
+    "nilai_text": "66/100",
+    "detail": []
+  },
+  {
+    "email": "ahmadatur593@gmail.com",
+    "nama": "Indah Yulinda",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 46,
+    "salah": 4,
+    "nilai": 92,
+    "nilai_text": "92/100",
+    "detail": []
+  },
+  {
+    "email": "rahmaagistiani924@gmail.com",
+    "nama": "Rahma",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 19,
+    "salah": 31,
+    "nilai": 38,
+    "nilai_text": "38/100",
+    "detail": [
+      {
+        "soal": "How was Cinderella’s stepmother?",
+        "jawaban_peserta": "B. Friendly",
+        "benar": false
+      },
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "C. vegetables and seasoning",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "najrilnajril329@gmail.com",
+    "nama": "Siti Rohmah",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 28,
+    "salah": 22,
+    "nilai": 56,
+    "nilai_text": "56/100",
+    "detail": [
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "B. Procedure text",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "pripai423@gmail.com",
+    "nama": "RIPAI",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 44,
+    "salah": 6,
+    "nilai": 88,
+    "nilai_text": "88/100",
+    "detail": []
+  },
+  {
+    "email": "syyedaanabia@gmail.com",
+    "nama": "Syyeda Anabia",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 36,
+    "salah": 14,
+    "nilai": 72,
+    "nilai_text": "72/100",
+    "detail": [
+      {
+        "soal": "How to serve the best ?",
+        "jawaban_peserta": "C. vegetables and seasoning",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "teicah054@gmail.com",
+    "nama": "Icah",
+    "paket": "Paket C",
+    "total": 50,
+    "benar": 38,
+    "salah": 12,
+    "nilai": 76,
+    "nilai_text": "76/100",
+    "detail": [
+      {
+        "soal": "What kind of text is it?",
+        "jawaban_peserta": "A. Narrative",
+        "benar": false
+      },
+      {
+        "soal": "What kind of text is that?",
+        "jawaban_peserta": "B. Procedure text",
+        "benar": false
+      }
+    ]
+  }
+]

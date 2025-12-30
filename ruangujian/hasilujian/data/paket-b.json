@@ -1,0 +1,1501 @@
+[
+  {
+    "email": "I have to finish my homework first.”\",\"Siti: “Let’s go to the library!”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "I have to finish my homework first.” [Score]\",\"Siti: “Let’s go to the library!”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "I have to finish my homework first.” [Feedback]\",\"“Would you like some coffee?”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "take a bath",
+    "nama": "I have breakfast and go to school.",
+    "paket": "",
+    "total": 50,
+    "benar": null,
+    "salah": null,
+    "nilai": null,
+    "nilai_text": "NaN/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "I have breakfast and go to school.",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "take a bath",
+    "nama": "I have breakfast and go to school.",
+    "paket": "",
+    "total": 50,
+    "benar": null,
+    "salah": null,
+    "nilai": null,
+    "nilai_text": "NaN/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "I have breakfast and go to school.",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "take a bath",
+    "nama": "I have breakfast and go to school.",
+    "paket": "",
+    "total": 50,
+    "benar": null,
+    "salah": null,
+    "nilai": null,
+    "nilai_text": "NaN/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "I have breakfast and go to school.",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "close the door.”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "close the door.”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "close the door.”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "she ___.”\",\"“Is she a teacher?” – “Yes",
+    "nama": "she ___.” [Feedback]\",The opposite of dirty is …,The opposite of dirty is … [Score],The opposite of dirty is … [Feedback],My brother is ___ than me.,My brother is ___ than me. [Score],My brother is ___ than me. [Feedback],There are ___ apples on the table.,There are ___ apples on the table. [Score],There are ___ apples on the table. [Feedback],\"“She can sing very well.”",
+    "paket": "",
+    "total": 50,
+    "benar": null,
+    "salah": null,
+    "nilai": null,
+    "nilai_text": "NaN/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "she ___.” [Feedback]\",The opposite of dirty is …,The opposite of dirty is … [Score],The opposite of dirty is … [Feedback],My brother is ___ than me.,My brother is ___ than me. [Score],My brother is ___ than me. [Feedback],There are ___ apples on the table.,There are ___ apples on the table. [Score],There are ___ apples on the table. [Feedback],\"“She can sing very well.”",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "Sinta. How are you today?”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "thank you. And you?”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "Sinta. How are you today?”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "thank you. And you?”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "Sinta. How are you today?”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "thank you. And you?”",
+    "nama": "",
+    "paket": "",
+    "total": 50,
+    "benar": 0,
+    "salah": 50,
+    "nilai": 0,
+    "nilai_text": "0/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "What kind of text is it?",
+    "nama": "What kind of text is it? [Feedback]",
+    "paket": "",
+    "total": 50,
+    "benar": null,
+    "salah": null,
+    "nilai": null,
+    "nilai_text": "NaN/100",
+    "detail": [
+      {
+        "soal": "Nama Lengkap",
+        "jawaban_peserta": "What kind of text is it? [Feedback]",
+        "benar": false
+      },
+      {
+        "soal": "PKBM Paket :",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "please!” means …\"",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "atmimesah@gmail.com",
+    "nama": "Mesah Atmi",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 48,
+    "salah": 2,
+    "nilai": 96,
+    "nilai_text": "96/100",
+    "detail": [
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "sw308889@gmail.com",
+    "nama": "Suci Wulandari",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 43,
+    "salah": 7,
+    "nilai": 86,
+    "nilai_text": "86/100",
+    "detail": [
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "B. are",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "A. study",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "muhamadrehanmauluda@gmail.com",
+    "nama": "Muhamad rehan mauluda",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 34,
+    "salah": 16,
+    "nilai": 68,
+    "nilai_text": "68/100",
+    "detail": [
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "D. They",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "B. lazy",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "A. speak",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "B. are",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "A. 7:15",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "maulidanazmi42@gmail.com",
+    "nama": "Nazmi Rizkia Zera Maulida",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 49,
+    "salah": 1,
+    "nilai": 98,
+    "nilai_text": "98/100",
+    "detail": []
+  },
+  {
+    "email": "harkoniharkoni480@gmail.com",
+    "nama": "Harkoni",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 35,
+    "salah": 15,
+    "nilai": 70,
+    "nilai_text": "70/100",
+    "detail": [
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "C. speaking",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "D. cooked",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "C. 6:30",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "asyfasalsabila910@gmail.com",
+    "nama": "wiwin winarsih",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 49,
+    "salah": 1,
+    "nilai": 98,
+    "nilai_text": "98/100",
+    "detail": []
+  },
+  {
+    "email": "robibiansyah65@gmail.com",
+    "nama": "yeni ulfah",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 49,
+    "salah": 1,
+    "nilai": 98,
+    "nilai_text": "98/100",
+    "detail": []
+  },
+  {
+    "email": "zanhatzan@gmail.com",
+    "nama": "Fauzan Nurill Arsya",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 35,
+    "salah": 15,
+    "nilai": 70,
+    "nilai_text": "70/100",
+    "detail": [
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "C. He",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "B. goes",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "arinneng62@gmail.com",
+    "nama": "Yeni heryani",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 27,
+    "salah": 23,
+    "nilai": 54,
+    "nilai_text": "54/100",
+    "detail": [
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "D. They",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "D. rude",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "D. going",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "C. speaking",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "C. studies",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "C. cooking",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "tatatata11176@gmail.com",
+    "nama": "Muhammad Isnan Gunawan",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 38,
+    "salah": 12,
+    "nilai": 76,
+    "nilai_text": "76/100",
+    "detail": [
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "B. goes",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "B. are",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "C. 6:30",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "yourmut8@gmail.com",
+    "nama": "UFI",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 47,
+    "salah": 3,
+    "nilai": 94,
+    "nilai_text": "94/100",
+    "detail": [
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "B. are",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "lia32778@gmail.com",
+    "nama": "siti.chuliatu rodiah (lia)",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 48,
+    "salah": 2,
+    "nilai": 96,
+    "nilai_text": "96/100",
+    "detail": []
+  },
+  {
+    "email": "ronironisuprianto@gmail.com",
+    "nama": "Roni supriyanto",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 13,
+    "salah": 37,
+    "nilai": 26,
+    "nilai_text": "26/100",
+    "detail": [
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "A. She",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "B. goes",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "C. speaking",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "B. are",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "A. study",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "C. cooking",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "jenz2967@gmail.com",
+    "nama": "Zaenudin",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 13,
+    "salah": 37,
+    "nilai": 26,
+    "nilai_text": "26/100",
+    "detail": [
+      {
+        "soal": "This is my house. __ is very small but comfortable.",
+        "jawaban_peserta": "A. She",
+        "benar": false
+      },
+      {
+        "soal": "Doni always helps his friends. He is a ___ boy.",
+        "jawaban_peserta": "B. lazy",
+        "benar": false
+      },
+      {
+        "soal": "The antonym of happy is …",
+        "jawaban_peserta": "D. going",
+        "benar": false
+      },
+      {
+        "soal": "We ___ to the zoo last week.",
+        "jawaban_peserta": "A. speak",
+        "benar": false
+      },
+      {
+        "soal": "He ___ English very well.",
+        "jawaban_peserta": "B. are",
+        "benar": false
+      },
+      {
+        "soal": "There ___ a book and two pencils on the table.",
+        "jawaban_peserta": "B. studying",
+        "benar": false
+      },
+      {
+        "soal": "The students ___ in the classroom now.",
+        "jawaban_peserta": "C. cooking",
+        "benar": false
+      },
+      {
+        "soal": "My mother ___ breakfast every morning.",
+        "jawaban_peserta": "C. 6:30",
+        "benar": false
+      }
+    ]
+  },
+  {
+    "email": "thepartel@gmail.com",
+    "nama": "Ahmad Sonhaji",
+    "paket": "Paket B",
+    "total": 50,
+    "benar": 43,
+    "salah": 7,
+    "nilai": 86,
+    "nilai_text": "86/100",
+    "detail": []
+  }
+]

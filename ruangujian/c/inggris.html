@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UAS Bahasa Inggris - Paket C</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body class="ujian-page">
+    <div class="timer-only" id="timer">Memuat waktu...</div>
+    <script>
+        if (!localStorage.getItem("login")) {
+            location.href = "../index.html";
+        }
+    </script>
+
+    <div class="container"
+        style="max-width: 100%; padding: 0; margin: 0; background: transparent; border: none; box-shadow: none;">
+        <p style="opacity:.7; font-size:12px; text-align:center; margin: 10px;">
+            ℹ️ Izin cookies: klik <b>Allow</b> untuk lanjut.
+        </p>
+
+        <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeoTzLQLLY9Dwnbssb9lvc7OZUdTqq7aLKCPiISDccjfQ3qEg/viewform?embedded=true"
+            class="ruang-iframe">
+        </iframe>
+    </div>
+
+    <script>
+        let sisa = 90 * 60;
+
+        setInterval(() => {
+            const m = Math.floor(sisa / 60);
+            const d = sisa % 60;
+            document.getElementById("timer").innerText =
+                `Sisa waktu: ${m}:${d.toString().padStart(2, "0")}`;
+            if (sisa > 0) sisa--;
+        }, 1000);
+
+        function logout() {
+            localStorage.removeItem("login");
+            location.href = "/ruangujian/";
+        }
+    </script>
+
+</body>
+
+</html>
