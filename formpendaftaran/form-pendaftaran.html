@@ -344,6 +344,8 @@
         <div><label>Kelurahan</label><input type="text" name="Kelurahan" /></div>
 
         <div><label>Kecamatan</label><input type="text" name="Kecamatan" /></div>
+        <div><label>Provinsi</label><input type="text" name="Provinsi" /></div> ```
+
         <div><label>Kode Pos</label><input type="text" name="Kode Pos" /></div>
 
         <div><label>HP</label><input type="text" name="HP" /></div>
@@ -534,15 +536,14 @@
     </div>
   </div>
 
-    <!-- === TAB 5: Download Data === -->
-  <div id="tab5" class="tab-content" style="padding: 20px; max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif;">
-  <h3 class="section-title" style="font-size: 1.5rem; margin-bottom: 10px; color: #1a73e8;">⬇️ Download Data</h3>
-  <p style="font-size: 1rem; margin-bottom: 20px; color: #333;">Download seluruh data pendaftaran dalam format Excel:</p>
-  
-  <a id="btnDownload" 
-     href="#" 
-     target="_top"
-     style="
+  <!-- === TAB 5: Download Data === -->
+  <div id="tab5" class="tab-content"
+    style="padding: 20px; max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif;">
+    <h3 class="section-title" style="font-size: 1.5rem; margin-bottom: 10px; color: #1a73e8;">⬇️ Download Data</h3>
+    <p style="font-size: 1rem; margin-bottom: 20px; color: #333;">Download seluruh data pendaftaran dalam format Excel:
+    </p>
+
+    <a id="btnDownload" href="#" target="_top" style="
        display: inline-block;
        padding: 12px 25px;
        background-color: #1a73e8;
@@ -551,13 +552,11 @@
        font-weight: bold;
        border-radius: 6px;
        transition: background-color 0.3s, transform 0.2s;
-     "
-     onmouseover="this.style.backgroundColor='#1669c1'; this.style.transform='scale(1.05)';"
-     onmouseout="this.style.backgroundColor='#1a73e8'; this.style.transform='scale(1)';"
-  >
-    📥 Download Data (Excel)
-  </a>
-</div>
+     " onmouseover="this.style.backgroundColor='#1669c1'; this.style.transform='scale(1.05)';"
+      onmouseout="this.style.backgroundColor='#1a73e8'; this.style.transform='scale(1)';">
+      📥 Download Data (Excel)
+    </a>
+  </div>
   </div>
 
   <!-- Google Charts -->
@@ -615,19 +614,65 @@
       }, 300);
     }
 
-    // === Confirm (submit ke GAS) ===
+    // === Confirm API EC2 AWS ===
     document.getElementById("btnConfirm").addEventListener("click", () => {
       if (!window.pendingFormData) return;
 
-      fetch(SCRIPT_URL, { method: "POST", body: window.pendingFormData })
+      // Konversi FormData ke JSON biar dimengerti sama API Node.js ente
+      const data = {};
+      window.pendingFormData.forEach((value, key) => {
+        // Map nama field dari form (Bahasa Indonesia) ke kolom database (snake_case/kecil)
+        const keyMap = {
+          "Nama": "nama",
+          "JK": "jk",
+          "NISN": "nisn",
+          "Tempat Lahir": "tempat_lahir",
+          "Tanggal Lahir": "tanggal_lahir",
+          "NIK": "nik",
+          "Alamat": "alamat",
+          "RT": "rt",
+          "RW": "rw",
+          "Dusun": "dusun",
+          "Kelurahan": "kelurahan",
+          "Kecamatan": "kecamatan",
+          "Provinsi": "provinsi",
+          "Kode Pos": "kode_pos",
+          "HP": "hp",
+          "Nama Ayah": "nama_ayah",
+          "Tahun Lahir Ayah": "tahun_lahir_ayah",
+          "Jenjang Pendidikan Ayah": "pendidikan_ayah",
+          "Pekerjaan Ayah": "pekerjaan_ayah",
+          "NIK Ayah": "nik_ayah",
+          "Nama Ibu": "nama_ibu",
+          "Tahun Lahir Ibu": "tahun_lahir_ibu",
+          "Jenjang Pendidikan Ibu": "pendidikan_ibu",
+          "Pekerjaan Ibu": "pekerjaan_ibu",
+          "NIK Ibu": "nik_ibu",
+          "Rombel": "rombel"
+        };
+        data[keyMap[key] || key] = value;
+      });
+
+      // Tembak ke API baru ente di EC2
+      fetch("http://halifa.ciwai.dev:3000/daftar", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      })
         .then(res => res.json())
         .then(d => {
           closeModal();
-          alert("✅ Data berhasil dikirim! ID: " + d.id);
-          form.reset();
-          // loadPreview();
+          if (d.success) {
+            alert("✅ Alhamdulillah! Data berhasil masuk RDS. ID: " + d.id);
+            form.reset();
+          } else {
+            alert("❌ Gagal simpan ke RDS: " + d.error);
+          }
         })
-        .catch(err => alert("❌ Gagal kirim: " + err));
+        .catch(err => {
+          console.error(err);
+          alert("❌ Waduh, koneksi ke API halifa.ciwai.dev putus bro!");
+        });
     });
 
     // === Statistik ===
@@ -658,7 +703,7 @@
       if (raw.includes('IX')) return 'IX';
       if (raw.includes('XII')) return 'XII';
       if (raw.includes('XI')) return 'XI';
-      if (raw.includes('X ')) return 'X'; // hati-hati spasi biar ga nabrak XI/XII
+      if (raw.includes('X ')) return 'X';
 
       return 'Unknown';
     }
@@ -680,13 +725,13 @@
 
       try {
         const res = await fetch(SCRIPT_URL + '?action=read');
-        let rows = await res.json(); // Gunakan 'let' agar bisa diubah
+        let rows = await res.json();
 
-        // === FIX KRUSIAL: PASTIKAN DATA ADALAH ARRAY ===
+        // ===  DATA ARRAY ===
         if (!Array.isArray(rows)) {
           console.error("Data dari server bukan array:", rows);
           noteEl.textContent = 'Gagal memuat data. Format data dari server salah.';
-          return; // Hentikan fungsi
+          return;
         }
         // ===============================================
         const total = Array.isArray(rows) ? rows.length : 0;
@@ -813,25 +858,25 @@
 
     // Fungsi View Detail
     function viewDetail(noPend) {
-            // === UBAH STRATEGI: FETCH HANYA SATU DATA DARI SERVER ===
-            fetch(`${SCRIPT_URL}?action=read_detail&noPend=${noPend}`) // Kirim ID yang mau dicari ke server
-                .then(res => {
-                    // Pastikan response HTTP sukses
-                    if (!res.ok) throw new Error('Gagal fetch data detail dari server.');
-                    return res.json();
-                })
-                .then(d => {
-                    // 'd' di sini HANYA berisi SATU objek data siswa, bukan array of rows.
-                    if (!d || d.error) {
-                        alert("❌ Data tidak ditemukan atau ada error: " + (d.error || 'Unknown Error'));
-                        return;
-                    }
+      // === UBAH STRATEGI: FETCH HANYA SATU DATA DARI SERVER ===
+      fetch(`${SCRIPT_URL}?action=read_detail&noPend=${noPend}`) // Kirim ID yang mau dicari ke server
+        .then(res => {
+          // Pastikan response HTTP sukses
+          if (!res.ok) throw new Error('Gagal fetch data detail dari server.');
+          return res.json();
+        })
+        .then(d => {
+          // 'd' di sini HANYA berisi SATU objek data siswa, bukan array of rows.
+          if (!d || d.error) {
+            alert("❌ Data tidak ditemukan atau ada error: " + (d.error || 'Unknown Error'));
+            return;
+          }
 
-                    const container = document.getElementById(`detail-${noPend}`);
-                    // Karena 'd' sudah berupa objek detail tunggal, lo bisa langsung pakai!
+          const container = document.getElementById(`detail-${noPend}`);
+          // Karena 'd' sudah berupa objek detail tunggal, lo bisa langsung pakai!
 
-                    const fields = [
-                        ["JK", "Jenis Kelamin"],
+          const fields = [
+            ["JK", "Jenis Kelamin"],
             ["Tempat Lahir", "Tempat Lahir"],
             ["Tanggal Lahir", "Tanggal Lahir"],
             ["NIK", "NIK"],
@@ -854,25 +899,25 @@
             ["Pekerjaan Ibu", "Pekerjaan Ibu"],
             ["NIK Ibu", "NIK Ibu"],
             ["Rombel Saat Ini", "📚 Rombel Saat Ini"],
-                    ];
+          ];
 
-                    let filled = [];
-                    let empty = [];
+          let filled = [];
+          let empty = [];
 
-                    fields.forEach(([key, label]) => {
-                        // Gunakan d[key] langsung karena sudah objek
-                        if (d[key] && d[key].toString().trim() !== "") {
-                            filled.push(`<p><b>${label}:</b> ${d[key]}</p>`);
-                        } else {
-                            empty.push(label); // simpan label kosong
-                        }
-                    });
+          fields.forEach(([key, label]) => {
+            // Gunakan d[key] langsung karena sudah objek
+            if (d[key] && d[key].toString().trim() !== "") {
+              filled.push(`<p><b>${label}:</b> ${d[key]}</p>`);
+            } else {
+              empty.push(label); // simpan label kosong
+            }
+          });
 
-                    // Logika tampilan lo (sudah keren, tidak perlu diubah)
-                    container.innerHTML = `
+          // Logika tampilan lo (sudah keren, tidak perlu diubah)
+          container.innerHTML = `
                 ${filled.join("")}
                 ${empty.length > 0
-                            ? `
+              ? `
                         <div class="mt-3 p-3 border border-yellow-300 rounded bg-yellow-50">
                             <p class="font-semibold text-yellow-700">⚠️ Data berikut belum diisi:</p>
                             <ul class="list-disc list-inside text-yellow-700">
@@ -880,17 +925,17 @@
                             </ul>
                         </div>
                     `
-                            : ""
-                        }
+              : ""
+            }
             `;
 
-                    container.classList.toggle("hidden");
-                })
-                .catch(err => {
-                    console.error("Fetch Error:", err);
-                    alert("Terjadi kesalahan jaringan saat memuat detail.");
-                });
-        }
+          container.classList.toggle("hidden");
+        })
+        .catch(err => {
+          console.error("Fetch Error:", err);
+          alert("Terjadi kesalahan jaringan saat memuat detail.");
+        });
+    }
 
     // === Tabs Switching ===
     const tabs = document.querySelectorAll(".tab");
@@ -1129,42 +1174,42 @@
 
     // --- Script untuk Tab 5 (Download) ---
 
-// [2] Setup Download Button Handler (Jurus Bypass URL)
-const btnDownload = document.getElementById('btnDownload'); 
-        
-if (btnDownload && typeof SCRIPT_URL !== 'undefined') {
-            
-    // Tambahkan listener untuk menangani klik
-    btnDownload.addEventListener('click', async (event) => {
+    // [2] Setup Download Button Handler (Jurus Bypass URL)
+    const btnDownload = document.getElementById('btnDownload');
+
+    if (btnDownload && typeof SCRIPT_URL !== 'undefined') {
+
+      // Tambahkan listener untuk menangani klik
+      btnDownload.addEventListener('click', async (event) => {
         event.preventDefault(); // Hentikan aksi link default
 
         btnDownload.textContent = "⌛ Mempersiapkan Download...";
         btnDownload.disabled = true;
 
         try {
-            // Panggil action=download di GAS. GAS sekarang hanya mengembalikan JSON URL.
-            const res = await fetch(SCRIPT_URL + '?action=download');
-            const data = await res.json(); 
+          // Panggil action=download di GAS. GAS sekarang hanya mengembalikan JSON URL.
+          const res = await fetch(SCRIPT_URL + '?action=download');
+          const data = await res.json();
 
-            if (data.url) {
-                // Jika URL diterima, buka di tab baru.
-                // Ini akan melewati blokir keamanan iFrame Web App.
-                window.open(data.url, '_blank');
-            } else if (data.error) {
-                 console.error("Download Error:", data.error);
-                 alert('Gagal mendownload data. Error Server: ' + data.error);
-            }
+          if (data.url) {
+            // Jika URL diterima, buka di tab baru.
+            // Ini akan melewati blokir keamanan iFrame Web App.
+            window.open(data.url, '_blank');
+          } else if (data.error) {
+            console.error("Download Error:", data.error);
+            alert('Gagal mendownload data. Error Server: ' + data.error);
+          }
         } catch (err) {
-            console.error('Fetch Download Error:', err);
-            alert('Gagal mengambil URL download. Cek koneksi.');
+          console.error('Fetch Download Error:', err);
+          alert('Gagal mengambil URL download. Cek koneksi.');
         } finally {
-            btnDownload.textContent = "📥 Download Data (Excel)";
-            btnDownload.disabled = false;
+          btnDownload.textContent = "📥 Download Data (Excel)";
+          btnDownload.disabled = false;
         }
-    });
-}
+      });
+    }
 
-loadStudentList();
+    loadStudentList();
 
   </script>
 
